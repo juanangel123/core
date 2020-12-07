@@ -21,6 +21,10 @@ const models: SmartPlaylistModel[] = [
   //   label: 'Bit Rate',
   //   unit: 'kbps'
   // }, {
+    name: 'path',
+    type: 'text',
+    label: 'Path'
+  }, {
     name: 'interactions.play_count',
     type: 'number',
     label: 'Plays'
